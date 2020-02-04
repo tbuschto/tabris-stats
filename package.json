@@ -1,0 +1,24 @@
+{
+  "name": "tabris-stats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist",
+  "scripts": {
+    "start": "tsc -p . && node dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^13.5.3",
+    "@typescript-eslint/eslint-plugin": "^2.18.0",
+    "@typescript-eslint/eslint-plugin-tslint": "^2.18.0",
+    "@typescript-eslint/parser": "^2.18.0",
+    "eslint": "^6.8.0",
+    "node-fetch": "^2.6.0",
+    "tslint": "^6.0.0",
+    "typescript": "^3.7.5"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.5.4"
+  }
+}
